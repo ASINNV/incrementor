@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=0;$(".right-circle").click(function(){e+=1,e>1&&e%9===0?$(".hoe").show():$(".hoe").hide(),$(".number").text(e)}),$(".left-circle").click(function(){e>0&&(e-=1,$(".number").text(e)),e>1&&e%9===0?$(".hoe").show():$(".hoe").hide()})});

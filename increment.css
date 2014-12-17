@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ACTUAL CODE STARTS HERE */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background: #ECECEC;
+	position: relative;
+}
+.containment {
+	width: 480px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 60px;
+	position: relative;
+}
+.container {
+	width: 444px;
+	height: 420px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background: white;
+	position: relative;
+	margin-bottom: 15px;
+}
+.incrementor {
+	font-family: 'Rockwell';
+	font-size: 58px;
+	color: #4A4A4A;
+}
+.text {
+	font-family: 'Helvetica Neue';
+	font-weight: 100;
+	font-size: 20px;
+	line-height: 24px;
+	padding-top: 20px;
+}
+.pressed {
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+.number {
+	font-family: 'Helvetica Neue';
+	font-weight: 900;
+	font-size: #4A4A4A;
+	font-size: 165px;
+	line-height: 140px;
+	color: #4A4A4A;
+}
+
+.left-circle, .right-circle {
+	display: inline-block;
+	height: 122px;
+	width: 122px;
+	border-radius: 50%;
+	text-align: center;
+	font-family: 'Helvetica Neue';
+	font-weight: 100;
+	font-size: 58px;
+	line-height: 110px;
+	cursor: pointer;
+
+}
+.minus {
+	color: #D0191C;
+}
+.minus:hover {
+	color: white;
+}
+.plus {
+	color: #2BCA3A;
+}
+.plus:hover {
+	color: white;
+}
+.left-circle {
+	border: 1px solid #D0191C;
+	margin-right: 110px;
+	margin-top: 24px;
+	-webkit-transition: background .2s, ease-out .2s;	
+}
+.left-circle:hover {
+	background: #D0191C;
+}
+.right-circle {
+	border: 1px solid #2BCA3A;
+	-webkit-transition: background .2s, ease-out .2s;	
+}
+.right-circle:hover {
+	background: #2BCA3A;
+}
+.hoe {
+	font-family: 'Helvetica Neue';
+	font-size: 12px;
+	color: #4A4A4A;
+	margin-bottom: 90px;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
